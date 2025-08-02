@@ -269,7 +269,5 @@ Feedstock Maintainers
 
 * [@maartenbreddels](https://github.com/maartenbreddels/)
 * [@oconnor663](https://github.com/oconnor663/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@shermansiu](https://github.com/shermansiu/)
 
