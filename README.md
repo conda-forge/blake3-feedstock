@@ -297,4 +297,5 @@ Feedstock Maintainers
 
 * [@maartenbreddels](https://github.com/maartenbreddels/)
 * [@oconnor663](https://github.com/oconnor663/)
+* [@shermansiu](https://github.com/shermansiu/)
 
