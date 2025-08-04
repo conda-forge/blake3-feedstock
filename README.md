@@ -9,6 +9,13 @@ Package license: Apache-2.0
 
 Summary: Python bindings for the Rust blake3 crate
 
+BLAKE3 is a cryptographic hash function that claims to be much faster than MD5, SHA-1, SHA-2,
+SHA-3, and BLAKE2.
+
+This conda package is the Python bindings for the Rust blake3 crate. If you are looking for the
+reference implementation of BLAKE3 as a command line tool, see the b3sum conda package instead.
+
+
 Current build status
 ====================
 
