@@ -36,6 +36,9 @@ requirements:
     - toml
   run:
     - python
+    - if: match(python, "<=3.11")
+      then:
+        - typing_extensions >=4.6.0
 
 tests:
   - python:
