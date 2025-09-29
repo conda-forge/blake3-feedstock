@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: blake3
-  version: 1.0.6
+  version: "1.0.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: e5a306e643a01755069fe70a2341ca8c8e715810a3517120c6db295c02e6919f
+  sha256: 228c617d4a92b45ef06c63236348001976245eb8efd561dbe181a0def524173e
 
 build:
-  number: 1
+  number: 0
   script:
     - ${{ PYTHON }} -m pip install . -vv
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
