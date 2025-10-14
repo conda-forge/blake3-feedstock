@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: blake3
-  version: "1.0.7"
+  version: "1.0.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 228c617d4a92b45ef06c63236348001976245eb8efd561dbe181a0def524173e
+  sha256: 513cc7f0f5a7c035812604c2c852a0c1468311345573de647e310aca4ab165ba
 
 build:
   number: 0
