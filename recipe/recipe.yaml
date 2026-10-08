@@ -13,8 +13,11 @@ source:
   sha256: e6f2cdb7ac9499adda6aec064a561b9dd808d243d4f639a4761cd19dea53e015
 
 build:
-  number: 1
+  number: 2
   script:
+    - if: osx
+      then:
+        - export RUSTFLAGS="${RUSTFLAGS:-} -C link-arg=-Wl,-headerpad_max_install_names"
     - ${{ PYTHON }} -m pip install . -vv
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
 
