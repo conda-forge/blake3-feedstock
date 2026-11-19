@@ -13,7 +13,7 @@ source:
   sha256: d73c0a87304d41045f6753a922113bede3ab09eda2d20371566a5bbe357c3deb
 
 build:
-  number: 3
+  number: 4
   script:
     - if: osx
       then:
